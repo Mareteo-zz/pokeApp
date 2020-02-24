@@ -63,7 +63,8 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
-    padding: 18,
+    paddingHorizontal: 18,
+    paddingVertical: 30,
     height: "100%"
   }
 });

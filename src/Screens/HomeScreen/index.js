@@ -83,7 +83,6 @@ const HomeScreen = props => {
         .then(res => {
           setLoading(false);
           props.navigation.navigate("Detail", { data: res })
-          console.log("by name", res);
         })
         .catch(err => {
           setLoading(false);
